@@ -5,12 +5,14 @@
 
 body{
     font-family: 'Nunito', sans-serif;
+    height: 100vh;
 }
 
 a{
     text-decoration: none;
 }
 
+/* Header */
 #header {
     overflow: hidden;
     background-size: cover;
@@ -19,9 +21,17 @@ a{
     position: relative;
 }
 
+
+#header a:link,
+#header a:visited {
+font-size: 22px;
+  color: #fff;
+  padding: 25px 30px;
+}
+
 #logo-top{
-    width: 100px;
-    margin: 10px 0 0 50px;
+    width: 160px;
+    margin: -10px 0 0 35px;
     float: left;
 }
 
@@ -32,14 +42,37 @@ a{
     height: 100%;
     color: white;
 }
+/* Fim */
 
-#header a:link,
-#header a:visited {
-font-size: 22px;
-  color: #fff;
-  padding: 25px 30px;
+/* Formulário */
+#container{
+    display: flex;
 }
 
+#img-form{
+    width: 550px;
+    margin: 25px;
+}
+
+#form{
+    text-align: center;
+}
+
+.input-person{
+    margin: 10px;
+    width: 350px;
+    height: 30px;
+    border-radius: 5px;
+    border-color: #E32D5B;
+}
+
+.option{
+    list-style-type: armenian;
+}
+/* Fim */
+
+
+/* Footer */
 #footer{
     display: flex;
     background-color: #390B17;
@@ -70,3 +103,4 @@ li{
     transform:translateY() translate;
  }
 
+/* Fim */
