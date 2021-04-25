@@ -61,12 +61,14 @@ font-size: 22px;
 }
 
 #textarea{
+    cursor: pointer;
     border-radius: 5px;
     border: 2px solid;
     border-color: #E32D5B;
 }
 
 #button{
+    cursor: pointer;
     margin: 5px 0 15px 0;
     width: 80px;
     height: 30px;
@@ -88,26 +90,63 @@ font-size: 22px;
 }
 
 .title-form2{
-    margin: 10px 0 10px 0;
+    margin: 15px 0 10px 0;
 }
 
 .input-person{
+    cursor: pointer;
     margin: 10px;
     width: 350px;
     height: 30px;
     border-radius: 5px;
     border: 2px solid;
     border-color: #E32D5B;
+    text-indent: 5px;
 }
 
 .option{
-    margin: 10px;
+    width: 30%;
+    height: 50px;
+    background:transparent;
+    border: solid 1px #E32D5B;
+    border-radius: 4px;
+    color: #616161;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0px;
+    transition: all 0.2s;
+    margin-right: 10px;
+    text-align: center;
+    display: flex;
+}
+
+
+input[type="radio"]{
+    position: absolute;
+    left: -100%;
+}
+
+#option-idea:checked ~ .option[for="option-idea"]{
+    background-color: #E32D5B;
+    color: white;
+    border: solid 1px #000;
+}
+#option-project:checked ~ .option[for="option-project"]{
+    background-color: #E32D5B;
+    color: white;
+    border: solid 1px #000;
+}
+#option-need:checked ~ .option[for="option-need"]{
+    background-color: #E32D5B;
+    color: white;
+    border: solid 1px #000;
+ 
 }
 
 ::placeholder{
     font-size: 15px;
-    color: black;
-    opacity: 40%;
+    color: #616161;
     text-indent: 10px;
 }
 
