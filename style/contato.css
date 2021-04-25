@@ -47,15 +47,48 @@ font-size: 22px;
 /* Formulário */
 #container{
     display: flex;
+    justify-content: center;
 }
 
 #img-form{
     width: 550px;
-    margin: 25px;
+    margin: 25px 25px 25px 0;
 }
 
 #form{
     text-align: center;
+    margin: 0 50px 0 50px;
+}
+
+#textarea{
+    border-radius: 5px;
+    border: 2px solid;
+    border-color: #E32D5B;
+}
+
+#button{
+    margin: 5px 0 15px 0;
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #E32D5B;
+    border: 1.5px solid #000;
+    color: white;
+    transform: scale(1);
+}
+
+/* Animação do botão */
+#button:hover {
+    transform: scale(1.2);
+}
+/* Fim */
+
+.title-form{
+    margin: 10px 0 5px 0;
+}
+
+.title-form2{
+    margin: 10px 0 10px 0;
 }
 
 .input-person{
@@ -63,14 +96,22 @@ font-size: 22px;
     width: 350px;
     height: 30px;
     border-radius: 5px;
+    border: 2px solid;
     border-color: #E32D5B;
 }
 
 .option{
-    list-style-type: armenian;
+    margin: 10px;
 }
-/* Fim */
 
+::placeholder{
+    font-size: 15px;
+    color: black;
+    opacity: 40%;
+    text-indent: 10px;
+}
+
+/* Fim */
 
 /* Footer */
 #footer{

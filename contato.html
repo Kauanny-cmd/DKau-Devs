@@ -26,9 +26,9 @@
         <img src="icons/contatoImg.svg" id="img-form">
     </div>
     <div id="form">
-        <h2>Entre em contato</h2>
+        <h2 class="title-form">Entre em contato</h2>
         <form action="" method="POST">
-            <h4>Informações pessoais</h4>
+            <h4 class="title-form">Informações pessoais</h4>
             <input type="text" name="Nome" placeholder="Seu nome"  autocomplete="off" class="input-person">
             <br>
             <input type="text" name="Email"placeholder="Seu email"  autocomplete="off" class="input-person">
@@ -37,21 +37,21 @@
             <br>
             <input type="text" name="Empresa" placeholder="Sua empresa (opcional)" class="input-person">
 
-            <h4 class="form-title">Assunto</h4>
+            <h4 class="title-form2">Assunto</h4>
             
             <input type="radio" value="Tenho uma ideia" id="option-idea" name="option">
             <label class="option" for="option-idea">Tenho um ideia</label>
-
+            <br>
             <input type="radio" value="Tenho um projeto" id="option-project" name="option">
             <label class="option" for="option-project">Tenho um projeto</label>
-            
+            <br>
             <input type="radio" value="Preciso de ideias" id="option-need" name="option">
             <label class="option" for="option-need">Preciso de ideias</label>
 
-            <h4 class="form-title">Conte-nos sobre o assunto </h4>
-            <textarea name="Assunto"></textarea>
-
-            <input type="button" value="enviar">
+            <h4 class="title-form2">Conte-nos sobre o assunto </h4>
+            <textarea name="Assunto" rows="5" cols="50" id="textarea"></textarea>
+            <br>
+            <input type="button" value="Enviar" id="button" type="submit">
         </form>
     </div>
     
