@@ -1,60 +1,45 @@
-body, html {
+*{
     margin: 0;
-    font: 16px;
-    color: #777;
-    height: 100%;
-}
-.conteudo {
-    color: #777;
-    background-color: white;
-    text-align: justify;
-    padding: 50px 80px;
+    padding: 0;
 }
 
-h3 {
-    text-transform: uppercase;
-    color: #111;
-    text-align: center;
+body{
+    font-family: 'Nunito', sans-serif;
+    height: 100vh;
 }
 
-p {
-    margin-bottom: 20px;
+a{
+    text-decoration: none;
 }
 
-/* Efeito paralax */
-.kauanny, .davi{
-    position: relative;
-    height: 100%;
-    opacity: 0.7;
-    background-repeat: no-repeat;
+/* Header */
+#header {
+    overflow: hidden;
     background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-}
-
-.kauanny {
-    background-image: url(../img/banner.png);
-}
-
-.davi {
-    background-image: url(../img/logo.png);
-
+    background-color: #E32D5B;
+    height: 120px;
+    position: relative;
 }
 
 
-.conteudo-titulo {
-    position: absolute;
-    left: 0;
-    top: 45%;
-    width: 100%;
-    text-align: center;
-    
+#header a:link,
+#header a:visited {
+font-size: 22px;
+  color: #fff;
+  padding: 25px 30px;
 }
 
-.conteudo-titulo span.titulo{
-    color: #fff;
-    background-color: #111;
-    padding: 16px;
-    font-size: 25px;
-    letter-spacing: 5px;
+#logo-top{
+    width: 160px;
+    margin: -10px 0 0 35px;
+    float: left;
 }
+
+#menu{
+    display: flex;
+    float: right;
+    padding: 25px;
+    height: 100%;
+    color: white;
+}
+/* Fim */
