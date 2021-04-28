@@ -50,10 +50,11 @@ font-size: 22px;
   width: 400px;
   height: 300px;
   background: linear-gradient(to left, #e32d5b 0%, #0894f1 100%);
-  margin: 0 auto;
   margin-top: 120px;
   text-align: center;
   border-radius: 20px;
+  margin: 120px;
+  float: left;
 }
 
 #container-1 img, #container-2 img {
@@ -68,6 +69,7 @@ font-size: 22px;
 /* Footer */
 
 #footer{
+    clear: both;
     display: flex;
     background-color: #390B17;
     padding: 15px;
