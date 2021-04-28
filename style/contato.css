@@ -52,7 +52,7 @@ font-size: 22px;
 
 #img-form{
     width: 550px;
-    margin: 25px 25px 25px 0;
+    margin: 140px 25px 25px 0;
 }
 
 #form{
@@ -63,8 +63,12 @@ font-size: 22px;
 #textarea{
     cursor: pointer;
     border-radius: 5px;
-    border: 2px solid;
+    border: 1px solid;
     border-color: #E32D5B;
+}
+
+#textarea:hover{
+    border:solid 1px #5e17eb;
 }
 
 #button{
@@ -96,17 +100,21 @@ font-size: 22px;
 .input-person{
     cursor: pointer;
     margin: 10px;
-    width: 350px;
-    height: 30px;
+    width: 100%;
+    height: 45px;
     border-radius: 5px;
-    border: 2px solid;
+    border: 1px solid;
     border-color: #E32D5B;
     text-indent: 5px;
 }
 
+input:hover[type="text"]{
+    border:solid 1px #5e17eb;
+}
+
 .option{
-    width: 30%;
-    height: 50px;
+    width: 100%;
+    height: 45px;
     background:transparent;
     border: solid 1px #E32D5B;
     border-radius: 4px;
@@ -114,13 +122,14 @@ font-size: 22px;
     cursor: pointer;
     justify-content: center;
     align-items: center;
-    margin-right: 0px;
-    transition: all 0.2s;
-    margin-right: 10px;
+    transition: all 1.0s;
     text-align: center;
     display: flex;
 }
 
+.option:hover{
+    border:solid 1px #5e17eb;
+}
 
 input[type="radio"]{
     position: absolute;
