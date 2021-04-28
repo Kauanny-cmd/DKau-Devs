@@ -16,7 +16,8 @@ a{
 #header {
     overflow: hidden;
     background-size: cover;
-    background-color: #E32D5B;
+     /* background-color: #e32d5b;  */
+    background: linear-gradient(to left, #e32d5b 0%, #0894f1 100%);
     height: 120px;
     position: relative;
 }
@@ -46,7 +47,30 @@ font-size: 22px;
 
 /* Principal */
 #container{
+    background-color: white;
+}
+
+#discription{
     display: flex;
+    height: 90vh;
+    background: linear-gradient(to left, #e32d5b 0%, #0894f1 100%);
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+
+#logo{
+    width: 380px;
+    position: relative;
+    margin: 160px 25px 180px 89px;
+}
+
+#text--discription{
+    text-align: justify;
+    font-size: 18px;
+    text-indent: 10px;
+    padding: 50px;
+    margin: 160px 89px 0 0;
+
 }
 /* Fim */
 
