@@ -5,20 +5,85 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
-    <link rel = "stylesheet" href = " https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css " >
     <link rel="stylesheet" href="style/contato.css">
     <title>Contato</title>
 </head>
 <body>
-    <header id="header"></header>
-    <div id="img-form">
-        <img src="img/logo.png">
+    <header id="header">
+        <div>
+          <img src="img/logo2.png" id="logo-top">  
+        </div>
+        <div>
+            <nav id="menu">
+                <a href="index.html">Início</a>
+                <a href="portfolio.html">Portfólio</a>
+                <a href="contato.html">Contato</a>
+            </nav>
+        </div>
+    </header>
+    <div id="container">
+        <div>
+        <img src="icons/contatoImg.svg" id="img-form">
     </div>
     <div id="form">
-        <form>
-            <h3>Entre em contato</h3>
+        <h2 class="title-form">Entre em contato</h2>
+        <form action="" method="POST">
+            <h4 class="title-form">Informações pessoais</h4>
+            <input type="text" name="Nome" placeholder="Seu nome"  autocomplete="off" class="input-person">
+            <br>
+            <input type="text" name="Email"placeholder="Seu email"  autocomplete="off" class="input-person">
+            <br>
+            <input type="text" name="Telefone" maxlength="15" placeholder="Seu telefone"  autocomplete="off" class="input-person">
+            <br>
+            <input type="text" name="Empresa" placeholder="Sua empresa (opcional)" class="input-person">
+
+            <h4 class="title-form2">Assunto</h4>
+            
+            <input type="radio" value="Tenho uma ideia" id="option-idea" name="option">
+            <label class="option" for="option-idea">Tenho um ideia</label>
+            <br>
+            <input type="radio" value="Tenho um projeto" id="option-project" name="option">
+            <label class="option" for="option-project">Tenho um projeto</label>
+            <br>
+            <input type="radio" value="Preciso de ideias" id="option-need" name="option">
+            <label class="option" for="option-need">Preciso de ideias</label>
+
+            <h4 class="title-form2">Conte-nos sobre o assunto </h4>
+            <textarea name="Assunto" rows="5" cols="50" id="textarea"></textarea>
+            <br>
+            <input type="button" value="Enviar" id="button" type="submit">
         </form>
     </div>
-    <i class="fab fa-instagram"></i>
+    
+    </div>
+    <footer id="footer">
+        <div class="info">
+            <h5 class="title">Menu</h5>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#header">Início</a>
+                    </li>
+                    <li>
+                        <a href="portfolio.html">Portfólio</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="info">
+            <h5 class="title">Quem somos</h5>
+            <nav>
+                <ul>
+                    <li>
+                      <a href="contato.html">Contato</a>  
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div id="copyright">
+            &copy;
+            <script> document.write(new Date().getFullYear()) </script> D'Kau Devs
+        </div>
+    </footer>
 </body>
 </html>
