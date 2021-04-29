@@ -46,17 +46,35 @@ font-size: 22px;
 /* Fim */
 
 /* Conteudo  */
+
+/*** EDIÇÃO DA BORDA, FOI FEITA UMA BORDA TOP E BOT E JUNTEI ELAS NAS LINHAS 70-73 ***/
 #container-1, #container-2{
   width: 400px;
   height: 300px;
-  background: linear-gradient(to left, #e32d5b 0%, #0894f1 100%);
+  /*background: linear-gradient(to left, #e32d5b 0%, #0894f1 100%);*/
   margin-top: 120px;
   text-align: center;
   border-radius: 20px;
   margin: 120px;
   float: left;
+  border-top: 20px solid #e32d5b;
+  border-bottom: 20px solid #0894f1;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background-position: 0 0, 100% 0;
+  background-repeat: no-repeat;
+  -webkit-background-size: 20px 100%;
+  -moz-background-size: 20px 100%;
+  background-size: 20px 100%;
+  background-image: -webkit-linear-gradient(top, #e32d5b 0%, #0894f1 100%), -webkit-linear-gradient(top, #e32d5b 0%, #0894f1 100%);
+  background-image: -moz-linear-gradient(top, #e32d5b 0%, #0894f1 100%), -moz-linear-gradient(top, #e32d5b 0%, #0894f1 100%);
+  background-image: -o-linear-gradient(top, #e32d5b 0%, #0894f1 100%), -o-linear-gradient(top, #e32d5b 0%, #0894f1 100%);
+  background-image: linear-gradient(to bottom, #e32d5b 0%, #0894f1 100%), linear-gradient(to bottom, #e32d5b 0%, #0894f1 100%);
+  
 }
 
+/*** EDIÇÃO DAS IMAGENS, -60 NA MARGIN PARA ELA FICAR PARA FORA DA DIV ***/
 #container-1 img, #container-2 img {
     width: 120px;
     height: 120px;
@@ -64,6 +82,22 @@ font-size: 22px;
     margin-bottom: 30px;
     border-radius: 90px;
 }
+
+/*** EDIÇÃO DOS TITULOS ***/
+
+.conteudo-titulo {
+    text-align: center;  
+}
+
+.conteudo-titulo span.titulo{
+    color: #fff;
+    background-color: #111;
+    padding: 8px;
+    font-size: 15px;
+    letter-spacing: 5px;
+    border-radius: 10px;
+}
+
 /* Fim */
 
 /* Footer */
