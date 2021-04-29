@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Nunito', sans-serif;
+    height: 100vh;
+}
+
+a{
+    text-decoration: none;
+}
+
+h4 {
+    color: #fff;
+    letter-spacing: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+/* Header */
+#header {
+    overflow: hidden;
+    background-size: cover;
+     /* background-color: #e32d5b;  */
+    background: linear-gradient(to left, #e32d5b 0%, #0894f1 100%);
+    height: 120px;
+    position: relative;
+}
+
+
+#header a:link,
+#header a:visited {
+font-size: 22px;
+  color: #fff;
+  padding: 25px 30px;
+}
+
+#logo-top{
+    width: 160px;
+    margin: -10px 0 0 35px;
+    float: left;
+}
+
+#menu{
+    display: flex;
+    float: right;
+    padding: 25px;
+    height: 100%;
+    color: white;
+}
+/* Fim */
+
+/* Principal */
+.container{
+    background: linear-gradient(to left, #e32d5b 0%, #0894f1 100%);
+    justify-content: center;
+    display: flex;
+}
+
+#discription{
+    display: flex;
+    height: 80vh;
+    background: linear-gradient(to left, #e32d5b 0%, #0894f1 100%);
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+
+#logo{
+    width: 380px;
+    position: relative;
+    margin: 160px 25px 180px 89px;
+}
+
+#text--discription{
+    text-align: justify;
+    font-size: 20px;
+    text-indent: 10px;
+    padding: 50px;
+    margin: 160px 89px 0 0;
+    color:white;
+}
+/* Fim */
+
+/* Projetos */
+
+#project-slider {
+    height: 90vh;
+    width: 1350px;
+    margin: 0 auto;
+    overflow: hidden;
+    filter: drop-shadow(10px 10px 4px rgb(44, 43, 44));
+    margin-bottom: 45px;
+}
+
+#slider-top{
+    display:flex;
+    margin: 0 auto;
+}
+
+#text-slider{
+    font-size: 50px;
+    margin: 20px 860px 15px 0;
+    color:white;
+    cursor: pointer;
+}
+
+.slider--control--Prev{
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    font-size:40px;
+    padding: 15px;
+    color:white;
+    margin-right: 20px;
+}
+
+.slider--control--Next{
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    font-size:40px;
+    padding: 15px;
+    color:white;
+}
+
+.slider--control--Prev:hover{
+    color:#0894f1;
+} .slider--control--Next:hover{
+    color:#0894f1;
+}
+
+#slider-fix{
+    background-color: #e9f1f1;
+    height: 84%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+#projects{
+    display: flex;
+    position: relative;
+}
+
+.title-discription{
+    font-size: 45px;
+    color:#0894f1;
+    padding: 25px;
+    cursor: pointer;
+}
+
+.text-discription{
+    margin-top:100px;
+    padding: 55px;
+    cursor: pointer;
+}
+
+.img-project{
+    width: 680px;
+    height: 350px;
+    margin-top:160px;
+}
+
+/* #slider--width {
+    width:1150px;
+    height: 662px;
+    background-size: cover;
+    transition: all ease 1.5s;
+} */
+
+/* Fim */
+
+/* Footer */
+#footer{
+    display: flex;
+    background-color: #390B17;
+    padding: 15px;
+}
+
+.info{
+    position: relative;
+    margin: 15px;
+}
+
+.title{
+    font-size: 15px;
+    color: #84A98C;
+}
+
+li{
+    list-style-type: none;
+}
+ li a:link,
+ li a:visited{
+     color: #84A98C;
+ }
+
+ #copyright{
+    color: #84A98C;
+    margin: 90px 0 0 30% ;
+    transform:translateY() translate;
+ }
+
+/* Fim */
