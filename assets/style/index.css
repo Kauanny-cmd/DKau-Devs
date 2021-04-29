@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Nunito', sans-serif;
+    height: 100vh;
+}
+
+a{
+    text-decoration: none;
+}
+
+h4 {
+    color: #fff;
+    letter-spacing: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Header */
+#header {
+    overflow: hidden;
+    background-size: cover;
+     /* background-color: #e32d5b;  */
+    background: linear-gradient(to left, #e32d5b 0%, #0894f1 100%);
+    height: 120px;
+    position: relative;
+}
+
+
+#header a:link,
+#header a:visited {
+font-size: 22px;
+  color: #fff;
+  padding: 25px 30px;
+}
+
+#logo-top{
+    width: 160px;
+    margin: -10px 0 0 35px;
+    float: left;
+}
+
+#menu{
+    display: flex;
+    float: right;
+    padding: 25px;
+    height: 100%;
+    color: white;
+}
+/* Fim */
+
+/* Principal */
+.container{
+    background-color: white;
+    justify-content: center;
+    display: flex;
+}
+
+#discription{
+    display: flex;
+    height: 90vh;
+    background: linear-gradient(to left, #e32d5b 0%, #0894f1 100%);
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+
+#logo{
+    width: 380px;
+    position: relative;
+    margin: 160px 25px 180px 89px;
+}
+
+#text--discription{
+    text-align: justify;
+    font-size: 18px;
+    text-indent: 10px;
+    padding: 50px;
+    margin: 160px 89px 0 0;
+
+}
+/* Fim */
+
+/* Footer */
+#footer{
+    display: flex;
+    background-color: #390B17;
+    padding: 15px;
+}
+
+.info{
+    position: relative;
+    margin: 15px;
+}
+
+.title{
+    font-size: 15px;
+    color: #84A98C;
+}
+
+li{
+    list-style-type: none;
+}
+ li a:link,
+ li a:visited{
+     color: #84A98C;
+ }
+
+ #copyright{
+    color: #84A98C;
+    margin: 90px 0 0 30% ;
+    transform:translateY() translate;
+ }
+
+/* Fim */
