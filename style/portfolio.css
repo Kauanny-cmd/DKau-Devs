@@ -46,6 +46,8 @@ font-size: 22px;
 /* Fim */
 
 /* Conteudo  */
+
+/*** EDIÇÃO DA BORDA, FOI FEITA UMA BORDA TOP E BOT E JUNTEI ELAS NAS LINHAS 70-73 ***/
 #container-1, #container-2{
   width: 400px;
   height: 300px;
@@ -72,6 +74,7 @@ font-size: 22px;
   
 }
 
+/*** EDIÇÃO DAS IMAGENS, -60 NA MARGIN PARA ELA FICAR PARA FORA DA DIV ***/
 #container-1 img, #container-2 img {
     width: 120px;
     height: 120px;
@@ -79,6 +82,21 @@ font-size: 22px;
     margin-bottom: 30px;
     border-radius: 90px;
 }
+
+/*** EDIÇÃO DOS TITULOS ***/
+
+.conteudo-titulo {
+    text-align: center;  
+}
+
+.conteudo-titulo span.titulo{
+    color: #fff;
+    background-color: #111;
+    padding: 8px;
+    font-size: 15px;
+    letter-spacing: 5px;
+}
+
 /* Fim */
 
 /* Footer */
