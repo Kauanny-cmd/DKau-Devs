@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,10 +10,11 @@
     <link rel="stylesheet" href="/assets/style/index.css">
     <title>D'Kau Devs</title>
 </head>
+
 <body>
     <header id="header">
         <div>
-          <img src="/assets/img/logo-top-index.png" id="logo-top">  
+            <img src="/assets/img/logo-top-index.png" id="logo-top">
         </div>
         <div>
             <nav id="menu">
@@ -29,20 +31,40 @@
             </div>
             <div id="text--discription">
                 <h4>Seja bem vindo a D'Kau Devs </h4>
-                <p>D'Kau Devs é uma empresa fictícia desenvolvida na disciplina de Gerência e 
-                    Configuração de Mudanças do Prof° Paulo Freitas no Instituto Federal de Educação, 
+                <p>D'Kau Devs é uma empresa fictícia desenvolvida na disciplina de Gerência e
+                    Configuração de Mudanças do Prof° Paulo Freitas no Instituto Federal de Educação,
                     Ciência e Tecnologia da Paraíba no campus Cajazeiras.</p>
                 <p>A empresa é voltada para o desenvolvimento de Softwares, Websites e aplicações.</p>
                 <p>Ainda somos uma micro empresa, que tem vários planos para o futuro. Alguns já em desenvolvimento.</p>
-                
-            </div>
-        </div>       
-    </div>
-    <div class="conatiner">
-        <div id="project">
 
+            </div>
         </div>
     </div>
+    <div class="container">
+        <div id="project-slider">
+            <div id="slider-top">
+                <p id="text-slider">Nossos projetos</p>
+                <div class="slider--control--Prev" onclick="goPrev()"><</div>
+                        <div class="slider--control--Next" onclick="goNext()">></div>
+                </div>
+                <div id="slider-fix">
+                    <div id="projects">
+                        <div class="text-discription">
+                            <h3 class="title-discription">Tediei</h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                has been the industry's standard dummy text ever since the 1500s, when an unknown
+                                printer took a galley of type and scrambled it to make a type specimen book. It has
+                                survived not only five centuries, but also the leap into electronic typesetting,
+                                remaining essentially unchanged. It was popularised in the 1960s with the release of
+                                Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+                                publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+                        </div>
+                        <img src="/assets/img/tediei.png" class="img-project">
+                    </div>
+                   <!--  <div id="slider--width"></div> -->
+                </div>
+            </div>
+        </div>
     </div>
     <footer id="footer">
         <div class="info">
@@ -63,16 +85,17 @@
             <nav>
                 <ul>
                     <li>
-                        <a href="/assets/pages/contato.html">Contato</a> 
+                        <a href="/assets/pages/contato.html">Contato</a>
                     </li>
                 </ul>
             </nav>
         </div>
         <div id="copyright">
             &copy;
-            <script> document.write(new Date().getFullYear()) </script> D'Kau Devs
+            <script> document.write(new Date().getFullYear())</script> D'Kau Devs
         </div>
     </footer>
-<script src="/assets/js/script.js"></script>
+    <script src="/assets/js/script.js"></script>
 </body>
+
 </html>
