@@ -80,7 +80,7 @@ font-size: 22px;
     justify-content: center;
 }
 
-#container-1 img, #container-2 img {
+#container-1 img.perfil, #container-2 img.perfil {
     width: 120px;
     height: 120px;
     margin-top: -60px;
@@ -103,6 +103,34 @@ font-size: 22px;
     border-radius: 10px;
 }
 
+/***Edição das redes sociais***/
+
+
+
+.social img {
+    width: 35px;
+    height: 35px;
+}
+
+.social a {
+    text-decoration: none;
+}
+
+.social img {
+    padding-left: 30px;
+    padding-top: 30px;
+    transition: 0.5s;
+}
+
+.social img {
+    transition: 0.5s all;
+
+}
+
+/* animação */
+.social img:hover{
+    transform: scale(1.2)rotate(-24deg);
+}
 /* Fim */
 
 /* Footer */
