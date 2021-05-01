@@ -1,7 +1,5 @@
 # DKau-Devs:computer:
 
-<hr />
-
 ### Oque é Dkau-Devs?
 
 É uma página de uma empresa fictícia, desenvolvida a partir de um projeto da disciplina de  Gerência e Configuração de Mudança.
