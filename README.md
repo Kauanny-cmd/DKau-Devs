@@ -6,4 +6,4 @@
 Nessa página é apresentado os projetos dos desenvolvedores de software. 
 
 ### Finalidade
-Atrair clientes intereçados nos projetos
+Atrair clientes interessados nos projetos
