@@ -209,27 +209,13 @@ font-size: 22px;
     display: flex;
     filter: drop-shadow(10px 10px 4px rgb(44, 43, 44));
  }
- 
- #slide1:checked ~ #controls label:nth-last-child(2),
- #slide2:checked ~ #controls label:nth-last-child(3),
- #slide3:checked ~ #controls label:nth-last-child(4),
- #slide4:checked ~ #controls label:nth-last-child(1) {
-    background: url(../icons/back.png) no-repeat;
-    float:left;
-    display: flex;
-    filter: drop-shadow(10px 10px 4px rgb(44, 43, 44));
- }
  /* Fim */
 
 /* Margem dos controles em todos os campos*/
 #slide1:checked ~ #controls label:nth-child(2),
 #slide2:checked ~ #controls label:nth-child(3),
 #slide3:checked ~ #controls label:nth-child(4),
-#slide4:checked ~ #controls label:nth-child(1),
-#slide1:checked ~ #controls label:nth-last-child(2),
-#slide2:checked ~ #controls label:nth-last-child(3),
-#slide3:checked ~ #controls label:nth-last-child(4),
-#slide4:checked ~ #controls label:nth-last-child(1) {
+#slide4:checked ~ #controls label:nth-child(1) {
     margin: -205px 0 0 0 ;
 }
 /* Fim */
